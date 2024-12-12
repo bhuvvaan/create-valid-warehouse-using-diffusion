@@ -1,1 +1,13 @@
 openai
+torch==2.0.1              # PyTorch for tensor computations
+torchvision==0.15.2       # TorchVision for image processing
+numpy==1.23.5            # Numerical operations
+matplotlib==3.7.1        # Visualization
+Pillow==9.5.0            # Image processing
+random2==1.0.1           # Random number generation (Python 2 compatibility)
+datasets==2.14.4         # Dataset loading and management
+transformers==4.35.0     # Hugging Face transformers for NLP
+diffusers==0.21.1        # Diffusers library for generative models
+accelerate==0.23.0       # Accelerate training and inference
+ftfy==6.1.1              # Text fixing for messy text data
+pyarrow==9.0.0           # Arrow for efficient data handling
