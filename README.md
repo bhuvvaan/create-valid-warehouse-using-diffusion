@@ -2,9 +2,9 @@
 
 A _valid warehouse layout_ is a special kind of layout that follows certain rules. For more information, refer to [https://arxiv.org/abs/2305.06436](https://arxiv.org/abs/2305.06436). 
 
-This repo contains code that creates those warehouse environments using diffusion models. It uses huggingface APIs to train a diffusion model from scratch. The code also generates its own training data. `
+This repo contains code that creates those warehouse environments using diffusion models. It uses huggingface APIs to train a diffusion model from scratch. 
 
-```using_diffusers_on_numpy_arrays.ipynb``` can be run by itself without any dependencies.
+```using_diffusers_on_numpy_arrays.ipynb``` can be run by itself without any dependencies. The code also generates its own training data and trains the model.
 
 ## Depth first approach to create the training data
 
