@@ -8,9 +8,9 @@ This repo contains code that creates those warehouse environments using diffusio
 
 ## Depth first approach to create the training data
 
-```dfs.py``` is the logic that creates the training data. The warehouse layout needs to follow certain physical rules and DFS was used to acheive this. ```using_diffusers_on_numpy_arrays.ipynb``` uses a fixed dimension warehouse, to changes the dimension, the DFS logic needs to be changed.
+```dfs.py``` is the logic that creates the training data. The warehouse layout needs to follow certain physical rules and DFS was used to acheive this. ```using_diffusers_on_numpy_arrays.ipynb``` uses a fixed dimension warehouse, to change the dimension, the DFS logic in it needs to be changed.
 
 ## Chain of thought approach
 
-A Chain of thought approach was also tried to achieve the warehouse layout that follows the constraints that were preveiously mentioned. OpenAI's API were used for this approach. Although the results were not satisfactory, the code can be found at ```chain_of_thought.py```. It will require an OpenAI API key.
+A Chain of thought approach was also tried to achieve the warehouse layout that follows the constraints that were preveiously mentioned. OpenAI's API was used for this approach. Although the results were not satisfactory, the code can be found at ```chain_of_thought.py```. It will require an OpenAI API key.
 
