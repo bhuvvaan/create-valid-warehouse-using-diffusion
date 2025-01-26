@@ -8,7 +8,7 @@ This repo contains code that creates those warehouse environments using diffusio
 
 ## Depth first approach to create the training data
 
-```dfs.py``` is the code that creates training data. As the warehouse layout needs to follow certain physical rules, DFS was used to acheive those. ```using_diffusers_on_numpy_arrays.ipynb``` uses a fixed dimension warehouse, to changes the dimension, the DFS logic needs to be changes.
+```dfs.py``` is the logic that creates the training data. The warehouse layout needs to follow certain physical rules and DFS was used to acheive this. ```using_diffusers_on_numpy_arrays.ipynb``` uses a fixed dimension warehouse, to changes the dimension, the DFS logic needs to be changed.
 
 ## Chain of thought approach
 
